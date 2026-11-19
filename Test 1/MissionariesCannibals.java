@@ -148,15 +148,6 @@ public class MissionariesCannibals {
     }
 
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Run missionary-cannibal solver? (y/n): ");
-            String choice = sc.nextLine().trim().toLowerCase();
-
-            if ("y".equals(choice) || "yes".equals(choice) || choice.isEmpty()) {
                 solve();
-            } else {
-                System.out.println("Program ended.");
-            }
-        }
     }
 }
