@@ -1,5 +1,11 @@
 # 📚 Intelligent Library Recommendation System
 
+## Watch my project demonstration video on YouTube
+
+[![Project demonstration video](https://img.youtube.com/vi/wMq6_TDvgxE/hqdefault.jpg)](https://www.youtube.com/watch?v=wMq6_TDvgxE)
+
+https://www.youtube.com/watch?v=wMq6_TDvgxE
+
 An AI-based library recommendation system developed using **GNU Prolog 1.5.0**. The project uses a knowledge base, logical rules, and a scoring mechanism to recommend books based on a student's interests, preferred subjects, reading level, and previously read books.
 
 The system demonstrates how **Artificial Intelligence and Logic Programming** can be used to build a simple personalized recommendation engine.
@@ -29,7 +35,7 @@ The system demonstrates how **Artificial Intelligence and Logic Programming** ca
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
-|---|---|
+| --- | --- |
 | GNU Prolog 1.5.0 | Logic programming and recommendation engine |
 | Prolog | Knowledge representation and inference |
 | VS Code | Code editing |
@@ -86,7 +92,7 @@ The system accepts the following information:
 The system applies logical rules to identify suitable books.
 
 | Matching Condition | Score |
-|---|---:|
+| --- | ---: |
 | Matches student interest | +3 |
 | Matches preferred subject | +3 |
 | Matches reading level | +2 |
@@ -204,7 +210,7 @@ Top recommended books:
 The project can be tested using the following scenarios:
 
 | Test Case | Input Condition | Expected Result |
-|---|---|---|
+| --- | --- | --- |
 | Test 1 | Matching interests, subjects, and reading level | Highest-scoring books recommended |
 | Test 2 | Previously read books provided | Read books excluded |
 | Test 3 | No exact reading-level match | Alternative difficulty-level books suggested |
